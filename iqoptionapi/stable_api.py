@@ -86,7 +86,7 @@ class IQ_Option:
             # logging.error('**warning** self.api.close() fail')
 
         self.api = IQOptionAPI(
-            "iqoption.com", self.email, self.password)
+            "km.iqoption.com", self.email, self.password)
         check = None
 
         # 2FA--
